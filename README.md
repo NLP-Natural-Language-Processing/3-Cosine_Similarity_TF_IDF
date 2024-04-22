@@ -59,3 +59,26 @@ La función **cosine_similarity** es una herramienta comúnmente utilizada en Py
 - En clustering, se utiliza para medir la similitud entre diferentes puntos de datos en un espacio de características.
 
 En resumen, **cosine_similarity** es una función que calcula la similitud coseno entre vectores, lo que proporciona una medida numérica de la similitud direccional entre ellos en un espacio euclidiano. Es una herramienta valiosa en una variedad de aplicaciones de aprendizaje automático y análisis de datos.
+
+
+### **Bag of Words (BOWs)**
+
+La Bolsa de Palabras es una representación simple pero poderosa que captura la información sobre la presencia y la frecuencia de las palabras en un texto, lo que la hace útil para una variedad de tareas de NLP. Sin embargo, no conserva información sobre la estructura y el contexto del texto.
+
+Por ejemplo, considera los siguientes tres documentos:
+
+"El gato está en la alfombra."
+
+"El perro corre en el parque."
+
+"El pájaro canta en el árbol."
+
+El vocabulario resultante podría ser: ["el", "gato", "está", "en", "la", "alfombra", "perro", "corre", "parque", "pájaro", "canta", "árbol"].
+
+Entonces, la representación BoW de estos documentos sería:
+
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+[1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0]
+
+[1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1]
