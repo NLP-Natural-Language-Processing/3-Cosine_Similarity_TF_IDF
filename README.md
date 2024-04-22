@@ -1,5 +1,29 @@
 # 3-Cosine_Similarity_TF_IDF
+0. [About Dataset](#schema0)
 1. [NLP Cosine Similarity | TF-IDF](#schema1)
+2. [Tweets - Sentiment Analysis](#schema2)
+
+
+<hr>
+
+<a name="schema0"></a>
+
+## 0. About Dataset
+
+**Context**
+
+This is the sentiment140 dataset. It contains 1,600,000 tweets extracted using the Twitter API. The tweets have been annotated (0 = negative, 4 = positive) and can be used to detect sentiment.
+
+**Content**
+
+It contains the following 6 fields:
+
+- target: the polarity of the tweet (0 = negative and 4 = positive)
+- ids: The id of the tweet ( 2087)
+- date: the date of the tweet (Sat May 16 23:58:44 UTC 2009)
+- flag: The query (lyx). If there is no query, then this value is NO_QUERY.
+- user: the user that tweeted.
+- text: the text of the tweet.
 
 <hr>
 
@@ -82,3 +106,14 @@ Entonces, la representación BoW de estos documentos sería:
 [1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0]
 
 [1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1]
+
+
+<hr>
+
+<a name="schema2"></a>
+
+## 2. Tweets - Sentiment Analysis
+
+### **Stemmer**
+
+**SnowballStemmer** ofrece soporte para una amplia gama de idiomas, incluidos el inglés, francés, español, alemán, italiano, portugués, holandés, sueco, ruso, entre otros.
