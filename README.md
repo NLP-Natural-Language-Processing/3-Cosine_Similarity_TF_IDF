@@ -1,7 +1,8 @@
-# 3-Cosine_Similarity_TF_IDF
+# 3-Cosine_Similarity_TF_IDF and ChatBot
 0. [About Dataset](#schema0)
 1. [NLP Cosine Similarity | TF-IDF](#schema1)
 2. [Tweets - Sentiment Analysis](#schema2)
+3. [Chatbot](#schema3)
 
 
 <hr>
@@ -117,3 +118,12 @@ Entonces, la representación BoW de estos documentos sería:
 ### **Stemmer**
 
 **SnowballStemmer** ofrece soporte para una amplia gama de idiomas, incluidos el inglés, francés, español, alemán, italiano, portugués, holandés, sueco, ruso, entre otros.
+
+
+<hr>
+
+<a name="schema3"></a>
+
+## 3. Chatbot
+![](./img/chatbot_1.png)
+![](./img/chatbot_2.png)
